@@ -20,10 +20,31 @@
   src: url("/fonts/Lato-Bold.ttf");
 }
 
+@font-face {
+    font-family: "Cantarell";
+    src: url('/fonts/Cantarell-VF-fixed.otf');
+}
+
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url('/fonts/JetBrainsMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: "SourceHanSerifCN";
+    src: url('/fonts/SourceHanSerifCN-Medium.ttf');
+}
+
+@font-face {
+    font-family: "SourceHanSerifCN";
+    src: url('/fonts/SourceHanSerifCN-Bold.ttf');
+    font-weight: bold;
+}
+
 html {
   background-color: rgb(var(--light-primary-color));
   color: var(--light-text-color);
-  font-family: "Lato", sans-serif;
+  font-family: 'Cantarell', 'SourceHanSerifCN', 'JetBrainsMono', serif;
   font-size: var(--font-size);
   min-height: 100%;
   position: relative;
