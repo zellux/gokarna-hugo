@@ -41,10 +41,15 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: "SourceSerif4";
+    src: url('/fonts/SourceSerif4-Regular.ttf');
+}
+
 html {
   background-color: rgb(var(--light-primary-color));
   color: var(--light-text-color);
-  font-family: 'Cantarell', 'SourceHanSerifCN', 'JetBrainsMono', serif;
+  font-family: 'SourceSerif4', 'SourceHanSerifCN', 'JetBrainsMono', serif;
   font-size: var(--font-size);
   min-height: 100%;
   position: relative;
