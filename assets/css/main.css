@@ -11,39 +11,46 @@
 @font-face {
   font-family: Lato;
   font-weight: 400;
+  font-display: swap;
   src: url("/fonts/Lato-Regular.ttf");
 }
 
 @font-face {
   font-family: Lato;
   font-weight: 700;
+  font-display: swap;
   src: url("/fonts/Lato-Bold.ttf");
 }
 
 @font-face {
-    font-family: "Cantarell";
-    src: url('/fonts/Cantarell-VF-fixed.otf');
+  font-family: "Cantarell";
+  font-display: swap;
+  src: url('/fonts/Cantarell-VF-fixed.otf');
 }
 
 @font-face {
-    font-family: "JetBrainsMono";
-    src: url('/fonts/JetBrainsMono-Regular.ttf');
+  font-family: "JetBrainsMono";
+  font-display: swap;
+  src: url('/fonts/JetBrainsMono-Regular.ttf');
 }
 
 @font-face {
-    font-family: "SourceHanSerifCN";
-    src: url('/fonts/SourceHanSerifCN-Medium.ttf');
+  font-family: "SourceHanSerifCN";
+  font-display: swap;
+  src: url('/fonts/SourceHanSerifCN-Medium.ttf');
 }
 
 @font-face {
-    font-family: "SourceHanSerifCN";
-    src: url('/fonts/SourceHanSerifCN-Bold.ttf');
-    font-weight: bold;
+  font-family: "SourceHanSerifCN";
+  font-weight: bold;
+  font-display: swap;
+  src: url('/fonts/SourceHanSerifCN-Bold.ttf');
 }
 
 @font-face {
-    font-family: "SourceSerif4";
-    src: url('/fonts/SourceSerif4-Regular.ttf');
+  font-family: "SourceSerif4";
+  font-display: swap;
+  src: url('/fonts/SourceSerif4-Regular.ttf');
 }
 
 html {
